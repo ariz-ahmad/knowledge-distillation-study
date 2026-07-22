@@ -1,0 +1,96 @@
+{
+  "teacher": {
+    "accuracy": 86.29,
+    "latency_ms": 5.11,
+    "size_mb": 97.8,
+    "params_m": 25.6
+  },
+  "student_pretrained": {
+    "accuracy": 75.41,
+    "latency_ms": 4.56,
+    "size_mb": 13.6,
+    "params_m": 3.5
+  },
+  "student_distilled": {
+    "accuracy": 98.06,
+    "latency_ms": 4.0,
+    "size_mb": 13.6
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "val_acc": 95.11,
+      "avg_loss": 0.2745
+    },
+    {
+      "epoch": 2,
+      "val_acc": 96.13,
+      "avg_loss": 0.2159
+    },
+    {
+      "epoch": 3,
+      "val_acc": 95.9,
+      "avg_loss": 0.1988
+    },
+    {
+      "epoch": 4,
+      "val_acc": 96.33,
+      "avg_loss": 0.1885
+    },
+    {
+      "epoch": 5,
+      "val_acc": 96.99,
+      "avg_loss": 0.1797
+    },
+    {
+      "epoch": 6,
+      "val_acc": 96.84,
+      "avg_loss": 0.1725
+    },
+    {
+      "epoch": 7,
+      "val_acc": 97.25,
+      "avg_loss": 0.1691
+    },
+    {
+      "epoch": 8,
+      "val_acc": 97.38,
+      "avg_loss": 0.1619
+    },
+    {
+      "epoch": 9,
+      "val_acc": 97.48,
+      "avg_loss": 0.1559
+    },
+    {
+      "epoch": 10,
+      "val_acc": 97.48,
+      "avg_loss": 0.1496
+    },
+    {
+      "epoch": 11,
+      "val_acc": 97.89,
+      "avg_loss": 0.1474
+    },
+    {
+      "epoch": 12,
+      "val_acc": 97.63,
+      "avg_loss": 0.1429
+    },
+    {
+      "epoch": 13,
+      "val_acc": 97.96,
+      "avg_loss": 0.1401
+    },
+    {
+      "epoch": 14,
+      "val_acc": 98.06,
+      "avg_loss": 0.1402
+    },
+    {
+      "epoch": 15,
+      "val_acc": 97.99,
+      "avg_loss": 0.14
+    }
+  ]
+}

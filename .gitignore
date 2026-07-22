@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+**/.DS_Store
+
+# Dataset and model checkpoints (regenerate via download_data.py / teacher.py / distill.py)
+imagenette2-320/
+*.pth
